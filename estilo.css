@@ -1,0 +1,86 @@
+*{
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+}
+
+:root{
+    --main-color: #000000;
+    --second-color: #ffffff;
+    --details-color: #a30a0a;
+}
+
+body{
+    margin: 0;
+    background-color: var(--main-color);
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--second-color);
+    padding: 10px;
+    color: var(--);
+    align-items: center;
+}
+
+.cabecalho-logo{
+    font-size: 44px;
+    text-transform: uppercase;
+    margin-left: 30px;
+    color: var(--main-color);
+}
+
+.cabecalho-nav ul{
+    display: flex;
+    font-size: 18px;
+    gap: 16px;
+    margin-right: 30px;
+}
+
+.cabecalho-nav a{
+    color: var(--main-color);
+    border-radius: 5px;
+    padding: 13px;
+}
+
+.cabecalho-nav a:hover{
+    color: var(--details-color);
+}
+
+main{
+    margin: 36px;
+}
+
+.imagens div{
+    height: 250px;
+    width: 250px;
+    margin: 15px;
+}
+
+.imagens{
+    height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tamanho{
+    height: 100%;
+}
+
+img:hover{
+    filter: grayscale(100%);
+}
+
+footer{
+    background-color: var(--second-color);
+    padding: 20px;
+    font-size: 18px;
+    color: var(--main-color);
+    text-align: center;
+}
